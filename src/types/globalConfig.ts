@@ -1,30 +1,19 @@
-export interface GlobalConfig {
-  _id: string;
-
-  dailychecking: number;
-
-  supportemail: string;
-
-  refer_reward: number;
-
-  network_fee: number;
-
-  daily_checkin: number;
-
-  bot_link: string;
-
-  forceJoinChannel: string;
-
-  createdAt: string;
-
-  min_withdraw: number;
-  adSettings: AdSettings;
+export interface GlobalConfigChannel {
+  name: string;
+  url: string;
+  reward: number;
 }
 
-export interface AdSettings {
-  adsPerSession: number;
-  rewardPerSession: number;
-  adsAler:string;
-  MonetagZoneId:string;
-  firstadsshow:boolean;
+export interface GlobalConfig {
+  _id: string;
+  refer_reward: number;
+  shortdescription: string;
+  welcomemessage: string;
+  startmessage: string;
+  channel_list: GlobalConfigChannel[];
+  tokensymbole: string;
+  bot_username: string;
+  withdrow_message: string;
+  createdAt: string;
+  updatedAt?: string;
 }

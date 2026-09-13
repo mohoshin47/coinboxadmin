@@ -1,9 +1,9 @@
 {
-  "name": "task-bot3",
+  "name": "coinbox-admin",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mohoshin47.github.io/octoearn",
+  "homepage": "https://mohoshin47.github.io/coinboxadmin",
   "scripts": {
     "start": "npm run dev",
     "dev": "vite",

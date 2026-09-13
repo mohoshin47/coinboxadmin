@@ -61,7 +61,7 @@ body {
 
 #root {
   width: 100%;
-  max-width: 720px;
+  max-width: 100%;
   min-height: 100vh;
   margin: 0 auto;
   overflow-x: hidden;
@@ -101,23 +101,23 @@ img {
 
 @layer components {
   .text-h1 {
-    @apply text-[28px] font-bold leading-[34px];
+    @apply text-[24px] font-bold leading-[34px];
   }
 
   .text-h2 {
-    @apply text-[22px] font-semibold leading-[28px];
+    @apply text-[18px] font-semibold leading-[28px];
   }
 
   .text-h3 {
-    @apply text-[18px] font-semibold leading-[24px];
+    @apply text-[16px] font-semibold leading-[24px];
   }
 
   .text-body {
-    @apply text-[16px] font-normal leading-[24px];
+    @apply text-[14px] font-normal leading-[24px];
   }
 
   .text-small {
-    @apply text-[14px] font-normal leading-[20px];
+    @apply text-[13px] font-normal leading-[20px];
   }
 
   .text-caption {
